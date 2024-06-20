@@ -35,11 +35,11 @@ public class MyStepdefs {
 //        } catch (InterruptedException interruptedException){
 //            // do something
 //        }
-//        if( (arg0 % 2)==0) {
-//            assertEquals(1, 1);
-//        } else {
-//            assertEquals(1, 2);
-//        }
+        if( (arg0 % 2)==0) {
+            assertEquals(1, 1);
+        } else {
+            assertEquals(1, 2);
+        }
     }
 
     @Given("numberOdd")
