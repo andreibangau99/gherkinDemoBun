@@ -1,17 +1,18 @@
 
 Feature: Feature: Approve
 
-    @exclude
+    @numberStatus
 	Scenario: numberStatus
 		Given numberOdd
 		When one
 		Then one
-
+    @numberStatus
 	Scenario: Approve2222
 		Given numberEven
 		When three
 		Then three
 
+    @numberStatus
 	Scenario Outline: Online
 		Given all
 		When  <param2>

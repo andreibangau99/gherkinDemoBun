@@ -1,3 +1,4 @@
+import io.cucumber.java.Before;
 import io.cucumber.java.PendingException;
 import io.cucumber.java.de.Angenommen;
 import io.cucumber.java.de.Dann;
@@ -194,6 +195,11 @@ public class MyStepdefs {
     @Given("d b")
     public void d_b() {
         // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Before(order=2, value="@numberStatus")
+    public void beforeScenario() {
         throw new io.cucumber.java.PendingException();
     }
 
