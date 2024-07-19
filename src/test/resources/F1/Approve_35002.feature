@@ -12,7 +12,6 @@ Feature: Feature: Approve
 		When three
 		Then three
 
-    @numberStatus
 	Scenario Outline: Online
 		Given all
 		When  <param2>
