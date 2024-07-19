@@ -1,4 +1,4 @@
-@ignore
+@exclude
 Feature: Feature: Approve
 
 	Scenario: numberStatus
