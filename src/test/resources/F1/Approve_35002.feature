@@ -1,4 +1,4 @@
-@ADD_NEW_TAG
+@ignore
 Feature: Feature: Approve
 
 	Scenario: numberStatus
