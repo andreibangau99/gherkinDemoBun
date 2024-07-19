@@ -198,10 +198,10 @@ public class MyStepdefs {
         throw new io.cucumber.java.PendingException();
     }
 
-    @Before(order=2, value="@numberStatus")
-    public void beforeScenario() {
-        throw new io.cucumber.java.PendingException();
-    }
+//    @Before(order=2, value="@pending")
+//    public void beforeScenario() {
+//        throw new io.cucumber.java.PendingException();
+//    }
 
 
 }

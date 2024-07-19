@@ -1,13 +1,12 @@
 
 Feature: Feature: Approve
 
-    @numberStatus
+    @exclude
 	Scenario: numberStatus
 		Given numberOdd
 		When one
 		Then one
 
-    @numberStatus
 	Scenario: Approve2222
 		Given numberEven
 		When three
