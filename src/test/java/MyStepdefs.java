@@ -1,3 +1,4 @@
+import io.cucumber.java.PendingException;
 import io.cucumber.java.de.Angenommen;
 import io.cucumber.java.de.Dann;
 import io.cucumber.java.de.Wenn;
@@ -44,8 +45,8 @@ public class MyStepdefs {
 
     @Given("numberOdd")
     public void numberOdd() {
-        // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
+//         Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
     }
 
     @Given("numberEven")
