@@ -1,6 +1,7 @@
-@exclude
+
 Feature: Feature: Approve
 
+    @exclude
 	Scenario: numberStatus
 		Given numberOdd
 		When one
