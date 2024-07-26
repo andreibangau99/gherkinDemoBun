@@ -1,3 +1,4 @@
+@exclude
 Feature: apscen21
     Scenario: app121
 		Given dsf

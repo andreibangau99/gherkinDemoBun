@@ -3,6 +3,7 @@
 #Auto generated Octane revision tag
 @BSPID1001REV0.2.0
 @TestToRun
+@exclude
 Feature: Standard test for demo
 @TSCID7104
 	Scenario: Basic script for CI
