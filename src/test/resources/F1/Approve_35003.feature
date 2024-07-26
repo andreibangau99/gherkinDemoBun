@@ -5,9 +5,9 @@ Feature: Number 2
 		Then one
 
 	Scenario: Approve2222
-		Given numberEven
-		When three
-		Then three
+		Given compare <param1> <param2>
+		When greater
+		Then greater
 
 	Scenario Outline: Online
 		Given all
