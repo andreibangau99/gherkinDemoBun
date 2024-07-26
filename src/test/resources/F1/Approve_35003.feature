@@ -5,8 +5,8 @@ Feature: Number 2
 		Then one
 
 	Scenario: Compare
-		Given compare <param1> and <param2>
-		When greater
+		Given greater
+		When compare <param1> and <param2>
 		Then thenGreater
 
     Examples:
