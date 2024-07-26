@@ -212,9 +212,6 @@ public class MyStepdefs {
             assertEquals(1, 1);
             System.out.println("greater");
         }
-        else{
-            throw new io.cucumber.java.PendingException();
-        }
     }
 
     @When("^greater")
@@ -232,6 +229,10 @@ public class MyStepdefs {
     @After
     public void afterScenario() {
         assertEquals(1, 1);
+    }
+    @Before(order=2, value="@Compare")
+    public void beforeScenario() {
+        throw new io.cucumber.java.PendingException();
     }
 
 

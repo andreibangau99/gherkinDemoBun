@@ -4,6 +4,7 @@ Feature: Number 2
 		When one
 		Then one
 
+    @Compare
 	Scenario: Compare
 		Given compare <param1> and <param2>
 		When greater
