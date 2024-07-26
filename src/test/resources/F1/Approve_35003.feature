@@ -4,10 +4,17 @@ Feature: Number 2
 		When one
 		Then one
 
-	Scenario: Approve2222
-		Given compare <param1> <param2>
+	Scenario: Compare
+		Given compare <param1> and <param2>
 		When greater
 		Then thenGreater
+
+    Examples:
+        | param1 | param2 |
+        | 2      | 4      |
+        | 1      | 8      |
+        | 4      | 6      |
+
 
 	Scenario Outline: Online
 		Given all

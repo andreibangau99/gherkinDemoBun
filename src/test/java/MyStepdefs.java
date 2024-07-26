@@ -204,9 +204,10 @@ public class MyStepdefs {
 //        throw new io.cucumber.java.PendingException();
 //    }
 
-    @Given("compare {int} {int}")
-    public void compare(Integer int1, Integer int2) {
+    @Given("compare {int} and {int}")
+    public void compare_numbers(int int1, int int2) {
         // Write code here that turns the phrase above into concrete actions
+
         if(int1 > int2){
             assertEquals(1, 1);
             System.out.println("greater");
@@ -216,7 +217,7 @@ public class MyStepdefs {
         }
     }
 
-    @When("greater")
+    @When("^greater")
     public void greater() {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(1, 1);
