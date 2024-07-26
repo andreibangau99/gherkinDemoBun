@@ -13,7 +13,7 @@ Feature: Number 2
         | param1 | param2 |
         | 6      | 4      |
         | 1      | 8      |
-        | 6      | 6      |
+        | 6      | 5      |
 
 
 	Scenario Outline: Online
