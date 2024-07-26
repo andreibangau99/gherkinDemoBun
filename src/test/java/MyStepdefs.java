@@ -230,10 +230,10 @@ public class MyStepdefs {
     public void afterScenario() {
         assertEquals(1, 1);
     }
-    @Before(order=2, value="@Compare")
-    public void beforeScenario() {
-        throw new io.cucumber.java.PendingException();
-    }
+//    @Before(order=2, value="@Compare1")
+//    public void beforeScenario() {
+//        throw new io.cucumber.java.PendingException();
+//    }
 
 
 }
