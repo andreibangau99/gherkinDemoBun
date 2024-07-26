@@ -234,7 +234,7 @@ public class MyStepdefs {
     @Then("thenGreater")
     public void greater2() {
         // Write code here that turns the phrase above into concrete actions
-        assertEquals(1, 1);
+        assertEquals(1, 2);
         System.out.println("then greater");
     }
 
