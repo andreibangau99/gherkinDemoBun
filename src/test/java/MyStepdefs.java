@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.gl.Cando;
 import io.cucumber.java.gl.Dado;
+import org.junit.Assume;
 
 import static org.junit.Assert.assertEquals;
 
@@ -208,14 +209,18 @@ public class MyStepdefs {
     public void compare_numbers(int int1, int int2) {
         // Write code here that turns the phrase above into concrete actions
 
-        if(int1 > int2){
-            assertEquals(1, 1);
-            System.out.println("greater");
-        }
+        Assume.assumeTrue(int1>int2);
+//        if(int1 > int2){
+//            assertEquals(1, 1);
+//            System.out.println("greater");
+//        }
+//        else{
+//            throw new io.cucumber.java.PendingException();
+//        }
     }
 
-    @When("^greater")
-    public void greater() {
+    @When("greater")
+    public void greaterg() {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(1, 1);
     }
