@@ -221,7 +221,7 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(1, 1);
     }
-    @Then("greater")
+    @Then("thenGreater")
     public void greater2() {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(1, 1);

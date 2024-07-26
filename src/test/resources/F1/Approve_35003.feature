@@ -7,7 +7,7 @@ Feature: Number 2
 	Scenario: Approve2222
 		Given compare <param1> <param2>
 		When greater
-		Then greater
+		Then thenGreater
 
 	Scenario Outline: Online
 		Given all
