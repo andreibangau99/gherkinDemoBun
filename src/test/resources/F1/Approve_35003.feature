@@ -18,7 +18,7 @@ Feature: Number 2
 		| param1 | param2 |
 		| 2      | 4      |
 		| 1      | 8      |
-		| 2      | 2      |
+		| 3      | 2      |
 		| 4      | 6      |
 
 
