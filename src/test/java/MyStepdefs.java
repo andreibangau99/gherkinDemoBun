@@ -4,6 +4,7 @@ import io.cucumber.java.PendingException;
 import io.cucumber.java.de.Angenommen;
 import io.cucumber.java.de.Dann;
 import io.cucumber.java.de.Wenn;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -238,6 +239,13 @@ public class MyStepdefs {
         System.out.println("then greater");
     }
 
+
+    @And("again")
+    public void again() {
+        // Write code here that turns the phrase above into concrete actions
+        assertEquals(1, 1);
+        System.out.println("then greater");
+    }
     @After
     public void afterScenario() {
         assertEquals(1, 1);

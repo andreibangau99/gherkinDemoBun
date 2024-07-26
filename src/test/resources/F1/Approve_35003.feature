@@ -8,6 +8,7 @@ Feature: Number 2
 		Given compare <param1> and <param2>
 		When greater
 		Then thenGreater
+		And again
 
     Examples:
         | param1 | param2 |
