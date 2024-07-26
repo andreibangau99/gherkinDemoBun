@@ -5,9 +5,9 @@ Feature: Number 2
 		Then one
 
 	Scenario: Compare
-		Given greater
-		When thenGreater
-		Then compare <param1> and <param2>
+		Given compare <param1> and <param2>
+		When greater
+		Then thenGreater
 
     Examples:
         | param1 | param2 |
