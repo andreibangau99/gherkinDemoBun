@@ -1,3 +1,4 @@
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.PendingException;
 import io.cucumber.java.de.Angenommen;
@@ -202,6 +203,11 @@ public class MyStepdefs {
 //    public void beforeScenario() {
 //        throw new io.cucumber.java.PendingException();
 //    }
+
+    @After
+    public void afterScenario() {
+        assertEquals(1, 1);
+    }
 
 
 }
