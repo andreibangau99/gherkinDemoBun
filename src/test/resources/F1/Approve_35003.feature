@@ -11,7 +11,7 @@ Feature: Number 2
 
     Examples:
         | param1 | param2 |
-        | 6      | 4      |
+        | 3      | 4      |
         | 1      | 8      |
         | 6      | 5      |
 
