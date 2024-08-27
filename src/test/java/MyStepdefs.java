@@ -234,6 +234,9 @@ public class MyStepdefs {
         if(int1==3) {
             System.out.println("3");
         }
+        if(int1==int2) {
+            fail();
+        }
         Assume.assumeTrue(int1>int2);
     }
 
