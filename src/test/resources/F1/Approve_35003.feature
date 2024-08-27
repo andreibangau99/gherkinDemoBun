@@ -7,7 +7,7 @@ Feature: Number 2
 	Scenario: Compare
 		Given compare <param1> and <param2>
 		When greater
-		Then thenGreater
+		Then thenGreater <param1> and <param2>
 		And again
 
     Examples:

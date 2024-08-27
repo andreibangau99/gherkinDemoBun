@@ -218,7 +218,8 @@ public class MyStepdefs {
             assertTrue(true);
         }
         if(int1==int2) {
-            fail();
+            System.out.println("equal");
+            return;
         }
         Assume.assumeTrue(int1>int2);
 //        if(int1 > int2){
@@ -228,6 +229,13 @@ public class MyStepdefs {
 //        else{
 //            throw new io.cucumber.java.PendingException();
 //        }
+    }
+
+    @Then("thenGreater {int} and {int}")
+    public void equalFail(int int1, int int2){
+        if(int1==int2) {
+            fail();
+        }
     }
 
     @When("greater")
