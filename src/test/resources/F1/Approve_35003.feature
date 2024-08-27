@@ -13,8 +13,8 @@ Feature: Number 2
     Examples:
         | param1 | param2 |
         | 3      | 4      |
-        | 1      | 8      |
         | 6      | 5      |
+        | 1      | 5      |
 
 
 	Scenario Outline: Online
