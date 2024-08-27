@@ -14,7 +14,7 @@ Feature: Number 2
         | param1 | param2 |
         | 6      | 5      |
         | 3      | 4      |
-        | 1      | 5      |
+        | 5      | 5      |
 
 
 	Scenario Outline: Online
