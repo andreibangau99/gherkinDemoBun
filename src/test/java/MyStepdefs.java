@@ -219,7 +219,6 @@ public class MyStepdefs {
         }
         if(int1==int2) {
             System.out.println("equal");
-            return;
         }
 //        if(int1 > int2){
 //            assertEquals(1, 1);
