@@ -4,17 +4,17 @@ Feature: Number 2
 		When one
 		Then one
 
-	Scenario: Compare
+	Scenario: Compare - <name>
 		Given compare <param1> and <param2>
 		When greater
 		Then thenGreater <param1> and <param2>
 		And again <param1> and <param2>
 
     Examples:
-        | param1 | param2 |
-        | 6      | 5      |
-        | 3      | 4      |
-        | 5      | 5      |
+        | name  | param1 | param2 |
+        | one   | 6      | 5      |
+        | two   | 3      | 4      |
+        | three | 5      | 5      |
 
 
 	Scenario Outline: Online
