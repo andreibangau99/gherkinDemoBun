@@ -232,10 +232,7 @@ public class MyStepdefs {
     @Then("thenGreater {int} and {int}")
     public void equalFail(int int1, int int2){
         if(int1==3) {
-            System.out.println("3");
-        }
-        if(int1==int2) {
-            fail();
+            assertTrue(true);
         }
         Assume.assumeTrue(int1>int2);
     }
@@ -253,9 +250,11 @@ public class MyStepdefs {
     }
 
 
-    @And("again")
-    public void again() {
-        assertEquals(1, 1);
+    @And("again {int} and {int}")
+    public void again(int int1, int int2) {
+        if(int1==int2) {
+            fail();
+        }
         System.out.println("then greater");
     }
     @After
