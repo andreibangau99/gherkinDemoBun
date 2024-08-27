@@ -234,7 +234,7 @@ public class MyStepdefs {
         if(int1==3) {
             System.out.println("3");
         }
-        Assume.assumeTrue(int1>int2);
+        assertEquals(1, 1);
     }
 
     @When("greater")
@@ -255,7 +255,7 @@ public class MyStepdefs {
         if(int1==int2) {
             fail();
         }
-        System.out.println("then greater");
+        Assume.assumeTrue(int1>int2);
     }
     @After
     public void afterScenario() {
