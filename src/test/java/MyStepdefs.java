@@ -232,7 +232,7 @@ public class MyStepdefs {
     @Then("thenGreater {int} and {int}")
     public void equalFail(int int1, int int2){
         if(int1==3) {
-            assertTrue(true);
+            System.out.println("3");
         }
         Assume.assumeTrue(int1>int2);
     }
