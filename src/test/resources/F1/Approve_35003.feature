@@ -8,8 +8,8 @@ Feature: Number 2
 
     Examples:
         | nr  | param1 | param2 |
-        | one   | 5      | 5      |
-        | two   | 3      | 4      |
+        | one   | 3      | 4      |
+        | two   | 4      | 4      |
         | three | 6      | 4      |
 
 
