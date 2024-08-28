@@ -257,6 +257,9 @@ public class MyStepdefs {
         if(int1==int2) {
             fail();
         }
+        if(int1 == 6){
+            throw new PendingException();
+        }
         Assume.assumeTrue(int1>int2);
     }
     @After
