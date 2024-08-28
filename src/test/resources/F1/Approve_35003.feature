@@ -24,9 +24,9 @@ Feature: Number 2
 
     Examples:
         | nr    | param1 | param2 |
-        | one   | 6      | 5      |
+        | one   | 3      | 5      |
         | two   | 7      | 5      |
-        | three | 3      | 4      |
+        | three | 6      | 4      |
 
 
 	Scenario Outline: Online
