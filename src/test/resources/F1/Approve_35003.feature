@@ -12,9 +12,9 @@ Feature: Number 2
 
     Examples:
         | nr  | param1 | param2 |
-        | one   | 6      | 5      |
-        | two   | 5      | 5      |
-        | three | 3      | 4      |
+        | one   | 5      | 5      |
+        | two   | 3      | 4      |
+        | three | 6      | 4      |
 
     Scenario: Compare2 - <nr>
             Given compare <param1> and <param2>
