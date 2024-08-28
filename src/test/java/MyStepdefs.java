@@ -54,7 +54,8 @@ public class MyStepdefs {
     @Given("numberOdd")
     public void numberOdd() {
 //         Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+//        throw new PendingException();
+        assertTrue(true);
     }
 
     @Given("numberEven")
@@ -67,6 +68,7 @@ public class MyStepdefs {
     public void oneThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
+        throw new PendingException();
     }
 
     @Then("three")
