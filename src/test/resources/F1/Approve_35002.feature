@@ -8,7 +8,7 @@ Feature: Feature: Approve
 
 	Scenario: Approve2222
 		Given numberEven
-		When three
+		When one
 		Then three
 
 	Scenario Outline: Online
