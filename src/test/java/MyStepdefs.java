@@ -32,6 +32,11 @@ public class MyStepdefs {
 //            assertEquals(1, 2);
 //        }
     }
+    @Then("fail")
+    public void fail() {
+        Assert.fail();
+
+    }
 
     @Then("{int}")
     public void some(int arg0) {
@@ -62,19 +67,21 @@ public class MyStepdefs {
     public void numberEven() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
+        assertTrue(true);
     }
 
     @Then("one")
     public void oneThen() {
         // Write code here that turns the phrase above into concrete actions
         //throw new cucumber.api.PendingException();
-        throw new PendingException();
+        assertTrue(true);
+//        throw new PendingException();
     }
 
     @Then("three")
     public void twoThen() {
         // Write code here that turns the phrase above into concrete actions
-        //throw new cucumber.api.PendingException();
+        throw new PendingException();
     }
 
      @When("two")
