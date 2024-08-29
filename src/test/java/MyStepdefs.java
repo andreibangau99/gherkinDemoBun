@@ -273,9 +273,9 @@ public class MyStepdefs {
     public void afterScenario() {
         assertEquals(1, 1);
     }
-    @Before(order=1, value="@Approve")
+    @Before(value="@Approve")
     public void beforeScenario() {
-        throw new io.cucumber.java.PendingException();
+        throw new PendingException();
     }
 
 
