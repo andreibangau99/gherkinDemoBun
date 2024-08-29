@@ -60,7 +60,8 @@ public class MyStepdefs {
     public void numberOdd() {
 //         Write code here that turns the phrase above into concrete actions
 //        throw new PendingException();
-        assertTrue(true);
+        Assume.assumeTrue(false);
+//        assertTrue(true);
     }
 
     @Given("numberEven")
@@ -81,7 +82,14 @@ public class MyStepdefs {
     @Then("three")
     public void twoThen() {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        assertTrue(true);
+//        throw new PendingException();
+    }
+    @And("four")
+    public void andFour() {
+        // Write code here that turns the phrase above into concrete actions
+        assertTrue(true);
+        //        throw new PendingException();
     }
 
      @When("two")
@@ -273,10 +281,10 @@ public class MyStepdefs {
     public void afterScenario() {
         assertEquals(1, 1);
     }
-    @Before(value="@Approve")
-    public void beforeScenario() {
-        throw new PendingException();
-    }
+//    @Before(value="@Approve2")
+//    public void beforeScenario() {
+//        throw new PendingException();
+//    }
 
 
 }
