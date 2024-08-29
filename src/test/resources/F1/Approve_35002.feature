@@ -15,6 +15,6 @@ Scenario: Approve2222
 	Scenario Outline: Online
 		Given all
 		When  one
-		Then fail
+		Then one
 
 
