@@ -6,6 +6,7 @@ Feature: Feature: Approve
 		When one
 		Then one
 
+    @Approve
 	Scenario: Approve2222
 		Given numberEven
 		When one
