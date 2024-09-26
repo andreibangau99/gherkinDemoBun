@@ -291,7 +291,8 @@ public class MyStepdefs {
 
     @Given("throw pending exception")
     public void thowPendingException() {
-        throw new PendingException("This test will be skipped");
+//        throw new PendingException("This test will be skipped");
+        Assume.assumeTrue(false);
     }
 
     @Given("assert 1 = 1")
