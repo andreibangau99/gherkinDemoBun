@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 //@CucumberOptions(plugin = "com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results/ManualRunnerTest_OctaneGherkinResults.xml",
 //        features = "src/test/resources/F1/" , tags = "not @exclude")
-@CucumberOptions(features = "src/test/resources/F1/Approve_35002.feature",
+@CucumberOptions(features = "src/test/resources/F1/dev_susan.feature",
 //        glue = {"MyStepdefs"},
         plugin = { "junit:target/cucumber-reports.xml" },tags = "not @exclude")
 

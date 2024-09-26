@@ -1,6 +1,4 @@
 #Auto generated Octane revision tag
-@TID447003REV0.1.0
-@EDPAY @SUSAN @INDEV
 
 Feature: Susan Test
 

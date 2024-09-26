@@ -13,6 +13,7 @@ import io.cucumber.java.gl.Dado;
 import org.junit.Assert;
 import org.junit.Assume;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -286,5 +287,21 @@ public class MyStepdefs {
 //        throw new PendingException();
 //    }
 
+
+
+    @Given("throw pending exception")
+    public void thowPendingException() {
+        throw new PendingException("This test will be skipped");
+    }
+
+    @Given("assert 1 = 1")
+    public void assert1equals1() {
+        assertThat("1 = 1", 1 == 1);
+    }
+
+    @Given("assert 1 = 2")
+    public void assert1equals2() {
+        assertThat("1 = 2", 1 == 2);
+    }
 
 }
