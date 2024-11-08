@@ -1,5 +1,5 @@
 
-Feature: Susan Test
+Feature: Skipped
 
   Scenario: Scenario - One
       Given throw pending exception
