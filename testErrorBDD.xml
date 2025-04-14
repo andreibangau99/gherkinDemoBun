@@ -22,7 +22,6 @@ Feature: Susan Test
 <scenario name="Scenario - One">
 <steps>
 <step name="Given assert 1 = 1" duration="0" status="failed">
-<error_message>My error message</error_message>
 </step>
 </steps>
 </scenario>
