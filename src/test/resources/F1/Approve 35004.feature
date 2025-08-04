@@ -17,6 +17,13 @@ Feature: Number 22
         | two   | 3      | 5      |
         | three | 3      | 4      |
 
+    @PSC2
+    Examples:
+        | nr    | param1 | param2 |
+        | one   | 3      | 5      |
+        | two   | 7      | 5      |
+        | three | 6      | 4      |
+
     Scenario: Compare22 - <nr>
             Given compare <param1> and <param2>
             When greater
