@@ -1,4 +1,4 @@
-Feature: Number 2
+Feature: Number 22
 	Scenario: numberStatus
 		Given numberOdd
 		When one
@@ -29,6 +29,4 @@ Feature: Number 2
         | one   | 3      | 5      |
         | two   | 7      | 5      |
         | three | 6      | 4      |
-
-
 
