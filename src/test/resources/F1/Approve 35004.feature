@@ -10,7 +10,6 @@ Feature: Number 2
 		Then thenGreater <param1> and <param2>
 		And again <param1> and <param2>
 
-    @PSCC
     Examples:
         | nr  | param1 | param2 |
         | one   | 5      | 5      |
@@ -23,7 +22,6 @@ Feature: Number 2
             Then thenGreater <param1> and <param2>
             And again <param1> and <param2>
 
-    @PSC
     Examples:
         | nr    | param1 | param2 |
         | one   | 3      | 5      |
@@ -36,7 +34,6 @@ Feature: Number 2
 		When  <param2>
 		Then <param1>
 
-    @PS
 	Examples:
 		| param1 | param2 |
 		| 2      | 4      |
