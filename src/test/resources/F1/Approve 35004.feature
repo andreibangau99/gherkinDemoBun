@@ -31,17 +31,4 @@ Feature: Number 2
         | three | 6      | 4      |
 
 
-	Scenario Outline2: Online
-		Given all
-		When  <param2>
-		Then <param1>
-
-    @PS
-	Examples:
-		| param1 | param2 |
-		| 2      | 4      |
-		| 1      | 8      |
-		| 3      | 2      |
-		| 4      | 6      |
-
 
