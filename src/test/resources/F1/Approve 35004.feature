@@ -10,14 +10,14 @@ Feature: Number 22
 		Then thenGreater <param1> and <param2>
 		And again <param1> and <param2>
 
-    @PSCC
+    @ExampleTag1
     Examples:
         | nr  | param1 | param2 |
         | one   | 5      | 5      |
         | two   | 3      | 5      |
         | three | 3      | 4      |
 
-    @PSC2
+    @ExampleTag2
     Examples:
         | nr    | param1 | param2 |
         | one   | 3      | 5      |
@@ -30,7 +30,7 @@ Feature: Number 22
             Then thenGreater <param1> and <param2>
             And again <param1> and <param2>
 
-    @PSC
+    @ExampleTag3
     Examples:
         | nr    | param1 | param2 |
         | one   | 3      | 5      |
