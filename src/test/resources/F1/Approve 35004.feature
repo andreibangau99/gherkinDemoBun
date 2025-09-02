@@ -4,6 +4,7 @@ Feature: Number 22
 		When one
 		Then one
 
+    @MyTag
 	Scenario: Compare2 - <nr>
 		Given compare <param1> and <param2>
 		When greater
