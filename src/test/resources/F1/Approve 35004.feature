@@ -1,44 +1,48 @@
 #Auto generated Octane revision tag
-@BSPID1024REV1.0.0
+@BSPID1024REV1.1.0
 Feature: Number 22
-@TSCID1070
-	Scenario: numberStatus
-		Given numberOdd
-		When one
-		Then one
+
+    @TSCID1070
+    Scenario: numberStatus
+        Given numberOdd
+        When one
+        Then one
 
     @MyTag
-@TSCID1071
-	Scenario: Compare2 - <nr>
-		Given compare <param1> and <param2>
-		When greater
-		Then thenGreater <param1> and <param2>
-		And again <param1> and <param2>
+    @TSCID1071
+    Scenario: Compare2 - <nr>
+        Given compare <param1> and <param2>
+        When greater
+        Then thenGreater <param1> and <param2>
+        And again <param1> and <param2>
 
-    @MyTag @ExampleTag1
-    Examples:
-        | nr  | param1 | param2 |
-        | one   | 5      | 5      |
-        | two   | 3      | 5      |
-        | three | 3      | 4      |
+        @MyTag
+        @ExampleTag1
+        Examples:
+            | nr    | param1 | param2 |
+            | one   | 5      | 5      |
+            | two   | 3      | 5      |
+            | three | 3      | 4      |
 
-    @MyTag @ExampleTag2
-    Examples:
-        | nr    | param1 | param2 |
-        | one   | 3      | 5      |
-        | two   | 7      | 5      |
-        | three | 6      | 4      |
+        @MyTag
+        @ExampleTag2
+        Examples:
+            | nr    | param1 | param2 |
+            | one   | 3      | 5      |
+            | two   | 7      | 5      |
+            | three | 6      | 4      |
 
-@TSCID1072
+    @TSCID1072
     Scenario: Compare22 - <nr>
-            Given compare <param1> and <param2>
-            When greater
-            Then thenGreater <param1> and <param2>
-            And again <param1> and <param2>
+        Given compare <param1> and <param2>
+        When greater
+        Then thenGreater <param1> and <param2>
+        And again <param1> and <param2>
 
-    @MyTag @Excluded
-    Examples:
-        | nr    | param1 | param2 |
-        | one   | 3      | 5      |
-        | two   | 7      | 5      |
-        | three | 6      | 4      |
+        @MyTag
+        @Excluded
+        Examples:
+            | nr    | param1 | param2 |
+            | one   | 3      | 5      |
+            | two   | 7      | 5      |
+            | three | 6      | 4      |
