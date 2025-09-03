@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 //        features = "src/test/resources/F1/" , tags = "not @exclude")
 @CucumberOptions(features = "src/test/resources/F1",
 //        glue = {"MyStepdefs"},
-        plugin = { "junit:target/cucumber-reports.xml" },tags = "@ExampleTag2 or @ExampleTag1 and not @Excluded")
+        plugin = { "junit:target/cucumber-reports.xml" },tags = "@ExampleTag2 and not @Excluded")
 
 public class MyTest {
 
