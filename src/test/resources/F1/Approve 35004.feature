@@ -7,7 +7,8 @@ Feature: Number 22
 		When one
 		Then one
 
-@TSCID1071 @MyTag
+    @MyTag
+@TSCID1071
 	Scenario: Compare2 - <nr>
 		Given compare <param1> and <param2>
 		When greater
@@ -41,4 +42,3 @@ Feature: Number 22
         | one   | 3      | 5      |
         | two   | 7      | 5      |
         | three | 6      | 4      |
-
