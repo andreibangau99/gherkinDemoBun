@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@BSPID1024REV1.1.0
 Feature: Number 22
 
     @TSCID1070
