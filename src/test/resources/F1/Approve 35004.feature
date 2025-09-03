@@ -1,13 +1,11 @@
 Feature: Number 22
 
-    @TSCID1070
     Scenario: numberStatus
         Given numberOdd
         When one
         Then one
 
     @MyTag
-    @TSCID1071
     Scenario: Compare2 - <nr>
         Given compare <param1> and <param2>
         When greater
@@ -30,7 +28,6 @@ Feature: Number 22
             | two   | 7      | 5      |
             | three | 6      | 4      |
 
-    @TSCID1072
     Scenario: Compare22 - <nr>
         Given compare <param1> and <param2>
         When greater
