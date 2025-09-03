@@ -1,5 +1,8 @@
+@MyFeature
 Feature: Number 22
 
+
+    @MyTag2
     Scenario: numberStatus
         Given numberOdd
         When one
