@@ -1,13 +1,11 @@
 #Auto generated Octane revision tag
-@BSPID1020REV0.0.1
 Feature: Number 22
-@TSCID1058
 	Scenario: numberStatus
 		Given numberOdd
 		When one
 		Then one
 
-    @MyTag @TSCID1059
+    @MyTag
 	Scenario: Compare2 - <nr>
 		Given compare <param1> and <param2>
 		When greater
@@ -34,7 +32,7 @@ Feature: Number 22
             Then thenGreater <param1> and <param2>
             And again <param1> and <param2>
 
-    @MyTag @Excluded @TSCID1060
+    @MyTag @Excluded
     Examples:
         | nr    | param1 | param2 |
         | one   | 3      | 5      |
