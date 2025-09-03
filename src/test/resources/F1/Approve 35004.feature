@@ -1,4 +1,3 @@
-@MyFeature
 Feature: Number 22
 
 
