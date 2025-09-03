@@ -1,5 +1,5 @@
 #Auto generated Octane revision tag
-@BSPID1024REV0.0.1
+@BSPID1024REV1.0.0
 Feature: Number 22
 @TSCID1070
 	Scenario: numberStatus
@@ -7,7 +7,7 @@ Feature: Number 22
 		When one
 		Then one
 
-    @MyTag @TSCID1071
+@TSCID1071 @MyTag
 	Scenario: Compare2 - <nr>
 		Given compare <param1> and <param2>
 		When greater
@@ -28,7 +28,7 @@ Feature: Number 22
         | two   | 7      | 5      |
         | three | 6      | 4      |
 
-    @TSCID1072
+@TSCID1072
     Scenario: Compare22 - <nr>
             Given compare <param1> and <param2>
             When greater
