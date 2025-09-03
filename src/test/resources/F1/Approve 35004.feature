@@ -31,7 +31,7 @@ Feature: Number 22
             Then thenGreater <param1> and <param2>
             And again <param1> and <param2>
 
-    @MyTag @ExampleTag3
+    @MyTag @Excluded
     Examples:
         | nr    | param1 | param2 |
         | one   | 3      | 5      |
