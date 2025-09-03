@@ -305,4 +305,9 @@ public class MyStepdefs {
         assertThat("1 = 2", 1 == 2);
     }
 
+    @Then("assert 1 = 22")
+    public void assert1equals22() {
+        assertThat("1 = 22", 1 == 22);
+    }
+
 }
