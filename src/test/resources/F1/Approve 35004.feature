@@ -2,13 +2,13 @@ Feature: Number 22
 
 
     @MyTag2
-    Scenario: numberStatus
+    Scenario Outline: numberStatus
         Given numberOdd
         When one
         Then one
 
     @MyTag
-    Scenario: Compare2 - <nr>
+    Scenario Outline: Compare2 - <nr>
         Given compare <param1> and <param2>
         When greater
         Then thenGreater <param1> and <param2>
@@ -30,7 +30,7 @@ Feature: Number 22
             | two   | 7      | 5      |
             | three | 6      | 4      |
 
-    Scenario: Compare22 - <nr>
+    Scenario Outline: Compare22 - <nr>
         Given compare <param1> and <param2>
         When greater
         Then thenGreater <param1> and <param2>
