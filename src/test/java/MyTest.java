@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 //@CucumberOptions(plugin = "com.hpe.alm.octane.OctaneGherkinFormatter:gherkin-results/ManualRunnerTest_OctaneGherkinResults.xml",
 //        features = "src/test/resources/F1/" , tags = "not @exclude")
 @CucumberOptions(features = "src/test/resources/F1/TestF.feature",
-        plugin = { "junit:target/cucumber-reports.xml" },tags = "not @Excluded")
+        plugin = { "junit:target/cucumber-reports.xml" })
 
 public class MyTest {
 
