@@ -28,7 +28,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | savings         | currentBalance    | brc         | lowes      | C       |30                        | 145                       |
 	  | checking        | otherAmount       | plcc        | amazon     | C       |30                        | 145                       |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| bankAccountType | paymentAmount     | accountType | clientName                | upcCode3| delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 		| savings         | statementBalance  | pscc        | Ashley Furniture          | blank   | 30                        | 204                       |
@@ -70,7 +70,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | savings         | statementBalance  | plcc        | amazon     | C        | currentDate    | 145                       | 145                       |
 
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| bankAccountType | paymentAmount     | accountType | clientName                | upcCode3| paymentDate    | delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 		| savings         | statementBalance  | pscc        | Ashley Furniture          | blank   | 204-delinqDays | 30                        | 204                       |
@@ -109,7 +109,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | ivrcx   | checking        | minimumPaymentDue | dc          | jcpenney   | 200                       | 206                       |
 	  | wkscx   | savings         | currentBalance    | brc         | lowes      | 200                       | 206                       |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| channel | bankAccountType | paymentAmount     | accountType | clientName                | delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 		| wkscx   | savings         | statementBalance  | pscc        | Ashley Furniture          | 30                        | 180                       |
@@ -138,7 +138,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | ivrcx   | checking        | minimumPaymentDue | dc          | jcpenney   | currentDate+5  | 180                       | 200                       |
 	  | wkscx   | savings         | currentBalance    | brc         | lowes      | currentDate+1  | 180                       | 200                       |
 
-	 @PSCC
+	 @SUCCESS @PSCC
 	Examples:
 	  | channel | bankAccountType | paymentAmount     | accountType | clientName                | paymentDate    | delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 	  | wkscx   | savings         | statementBalance  | pscc        | Ashley Furniture          | currentDate+1  | 30                        | 180                       |
@@ -173,7 +173,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | checking        | dc          | jcpenney   | C       | 145                       | greaterThan145            |
 	  | savings         | brc         | lowes      | C       | 145                       | greaterThan145            |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| bankAccountType | accountType | clientName                | upcCode3| delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 		| savings         | pscc        | Ashley Furniture          | blank   | 206                       | greaterThan206            |
@@ -210,7 +210,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | checking        | dc          | jcpenney   | C       | currentDate+365 | 145                       | greaterThan145            |
 	  | savings         | brc         | lowes      | C       | currentDate+1   | 145                       | greaterThan145            |
 
-	@PSCC
+	@SUCCESS @PSCC
 	Examples:
 	  | bankAccountType | accountType | clientName                | upcCode3| paymentDate     | delinquencyDaysLowerLimit | delinquencyDaysUpperLimit |
 	  | savings         | pscc        | Ashley Furniture          | blank   | currentDate+1   | 206                       | greaterThan206            |
@@ -242,7 +242,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | ivrcx   | checking        | dc          | jcpenney   |
 	  | wkscx   | savings         | brc         | lowes      |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| channel | bankAccountType | accountType | clientName                |
 		| wkscx   | savings         | pscc        | Ashley Furniture          |
@@ -269,7 +269,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | ivrcx   | checking        | dc          | jcpenney   | currentDate+365 |
 	  | wkscx   | savings         | brc         | lowes      | currentDate+1   |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| channel | bankAccountType | accountType | clientName                | paymentDate     |
 		| wkscx   | savings         | pscc        | Ashley Furniture          | currentDate+1   |
@@ -294,7 +294,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | brc         | lowes      | 200                       | 206                       | currentDate+2  | wkscx   | savings         |
 	  | plcc        | amazon     | 206                       | greaterThan206            | currentDate+1  | wkscx   | checking        |
 
-	@PSCC
+	@SUCCESS @PSCC
 	  Examples:
 		| accountType | clientName                | delinquencyDaysLowerLimit | delinquencyDaysUpperLimit | paymentDate    | channel | bankAccountType |
 		| pscc        | Ashley Furniture          | 30                        | 180                       | currentDate+25 | wkscx   | savings         |
@@ -321,7 +321,7 @@ Feature: Synchrony delinquent customers making a one-time payment using their pa
 	  | plcc        | amazon     | C       |145                       | greaterThan145            | 145+delinqDays | checking        |
 
 
-	@PSCC
+	@SUCCESS @PSCC
 	Examples:
 	  | accountType | clientName                | upcCode3| delinquencyDaysLowerLimit | delinquencyDaysUpperLimit | paymentDate     | bankAccountType |
 	  | pscc        | Ashley Furniture          | blank   | 30                        | 204                       | 204+delinqDays  | savings         |
