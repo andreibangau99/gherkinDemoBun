@@ -83,6 +83,46 @@ public class MyStepdefsCustomer {
         throw new io.cucumber.java.PendingException();
     }
 
-    
+    @Given("an account of type {string},client {string} and delinquent between {string} {string} days with account conditions")
+    public void an_account_of_type_client_and_delinquent_between_days_with_account_conditions(String string, String string2, String string3, String string4, io.cucumber.datatable.DataTable dataTable) {
+        // Write code here that turns the phrase above into concrete actions
+        // For automatic transformation, change DataTable to one of
+        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+        // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+        // Double, Byte, Short, Long, BigInteger or BigDecimal.
+        //
+        // For other transformations you can register a DataTableType.
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @When("a one-time payment with payment amount {string} and payment date {string}")
+    public void a_one_time_payment_with_payment_amount_and_payment_date(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @When("making a one-time payment with bank account type {string}, bank account number & bank routing number in request using channel {string}")
+    public void making_a_one_time_payment_with_bank_account_type_bank_account_number_bank_routing_number_in_request_using_channel(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Given("an account of type {string} and client {string} with account conditions")
+    public void an_account_of_type_and_client_with_account_conditions(String string, String string2, io.cucumber.datatable.DataTable dataTable) {
+        // Write code here that turns the phrase above into concrete actions
+        // For automatic transformation, change DataTable to one of
+        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+        // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+        // Double, Byte, Short, Long, BigInteger or BigDecimal.
+        //
+        // For other transformations you can register a DataTableType.
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @When("a one-time payment with payment amount {string} and payment date {string} for settlement")
+    public void a_one_time_payment_with_payment_amount_and_payment_date_for_settlement(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
 
 }
